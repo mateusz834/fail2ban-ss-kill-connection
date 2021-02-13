@@ -18,7 +18,7 @@ action = (your normal action)
 [ftp-subnet]
 (...)
 action = (your normal action)
-         ss-kill-custom[port="21,50000:51000",mask4="24",mask6="64"]
+         ss-kill-subnet-custom[port="21,50000:51000",mask4="24",mask6="64"]
 
 
 ```
