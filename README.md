@@ -13,12 +13,12 @@ Adjust jail.local file <br>
 [ftp]
 (...)
 action = (your normal action)
-         ss-kill-custom[port="22,5000:51000"]
+         ss-kill-custom[port="21,50000:51000"]
          
 [ftp-subnet]
 (...)
 action = (your normal action)
-         ss-kill-custom[port="22,5000:51000",mask4="24",mask6="64"]
+         ss-kill-custom[port="21,50000:51000",mask4="24",mask6="64"]
 
 
 ```
